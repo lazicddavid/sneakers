@@ -4,7 +4,6 @@
 
 body {
   font-family: sans-serif;
-
   background-color: white;
   margin: 0 auto;
   max-width: 1100px;
@@ -101,7 +100,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  margin-top: 15px;
+  margin: 15px auto;
 }
 
 .footer-img img {
@@ -130,7 +129,6 @@ body {
   font-size: xx-large;
   background-color: orange;
   border-radius: 10px;
-
   padding: 10px;
 }
 
@@ -161,17 +159,17 @@ h1 {
   margin-top: 10px;
 }
 
-.new-price {
-  font-size: 24px;
-  font-weight: bold;
-}
-
 .discount {
   background-color: orange;
   color: white;
   font-size: 14px;
   padding: 5px 8px;
   border-radius: 5px;
+}
+
+.new-price {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .old-price {
@@ -221,6 +219,8 @@ h1 {
   background-color: rgb(255, 204, 0);
 }
 
-h5 {
-  color: red;
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
